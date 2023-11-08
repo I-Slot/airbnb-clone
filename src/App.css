@@ -1,4 +1,10 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500;1,600;1,700&family=Poppins&family=Public+Sans:wght@300;400;700&display=swap");
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +41,42 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(148, 24, 24, 0.1);
+  /* background-color: white; */
+}
+
+nav > img {
+  width: 150px;
+  padding: 20px;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.photo-grid > img {
+  width: 800px;
+  padding: 40px;
+}
+
+.hero-text {
+  padding: 40px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-text > p {
+  width: 500px;
+  font-size: 25px;
 }
