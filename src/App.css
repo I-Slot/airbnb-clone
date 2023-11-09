@@ -80,3 +80,28 @@ nav > img {
   width: 500px;
   font-size: 25px;
 }
+
+/* Card Styling */
+
+.star {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rating {
+  margin-left: 5px;
+}
+
+.card {
+  padding: 15px;
+}
+
+.card > p {
+  margin-top: 0;
+  padding: 0;
+}
+
+.katie {
+  border-radius: 10px;
+}
